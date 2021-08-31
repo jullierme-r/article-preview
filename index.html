@@ -12,7 +12,9 @@
 </head>
 <body>
   <main class="container">
-    <div class="img-content"></div>
+    <div class="img-content">
+      <img src="images/drawers.jpg" alt="A green drawer with two portraits and one vase on the top of it.">
+    </div>
     <div class="content-wrapper">
       <article class="main-content">
         <h1>
@@ -23,18 +25,21 @@
       </article>
       <aside class="profile">
         <div class="contact">
-          <img src="images/avatar-michelle.jpg" alt="user profile picture" class="profile-pic">
-          <div><span>Michelle Appleton</span><p>28 Jun 2020</p></div>
+          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" class="profile-pic">
+          <div>
+            <h2>Michelle Appleton</h2>
+            <p>28 Jun 2020</p>
+          </div>
         </div>
+        <button aria-expanded="false" class="share-btn">
+          <img src="images/icon-share.svg" alt="sharing button" id="share">
+        </button>
         <div class="social">
           <span>Share</span>
-          <img src="images/icon-facebook.svg" alt="logo of facebook">
-          <img src="images/icon-twitter.svg" alt="logo of twitter">
-          <img src="images/icon-pinterest.svg" alt="logo of pinterest">
-        </div>
-        <div class="share-img">
-          <img src="images/icon-share.svg" alt="sharing button" id="share">
-        </div>
+          <a href="#" aria-label="go to facebook"><img src="images/icon-facebook.svg" alt="facebook"></a>
+          <a href="#" aria-label="go to twitter"><img src="images/icon-twitter.svg" alt="twitter"></a>
+          <a href="#" aria-label="go to pinterest"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+        </div>        
       </aside>
     </div>    
   </main>  
