@@ -17,7 +17,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--veryDarkGrayisBlue); */
     background-color: var(--lightGrayishBlue);
     font-family: 'Manrope', sans-serif;
     font-size: .8125rem;
@@ -32,17 +31,11 @@ body {
     max-width: 22.5rem;
 }
 
-.img-content {
-    background-image: url('../images/drawers.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 12.4rem;
-    width: auto;
-}
-
 .img-content img {
-    display: none;
+    display: block;
+    height: 12.5rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .main-content {
@@ -90,10 +83,30 @@ body {
     display: none;
 }
 
-.contact span {
+.contact h2 {
     color: var(--veryDarkGrayisBlue);
     font-size: .9rem;
     font-weight: 700;
+}
+
+.share-btn {
+    background-color: var(--lightGrayishBlue);
+    border: none;
+    border-radius: 50%;
+    width: 1.875rem;
+    height: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-share-btn {
+    background-color: var(--grayishBlue);
+}
+
+.share-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .social {
@@ -104,30 +117,13 @@ body {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    order: -1;
 }
 
 .social span{
     color: var(--desaturatedDarkBlue);
     letter-spacing: .3rem;
     text-transform: uppercase;
-}
-
-.share-img {
-    background-color: var(--lightGrayishBlue);
-    border-radius: 50%;
-    width: 1.875rem;
-    height: 1.875rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bg-share-img {
-    background-color: var(--grayishBlue);
-}
-
-.share-img:hover {
-    transform: scale(1.2);
 }
 
 .attribution { 
@@ -141,10 +137,15 @@ body {
 
 @media screen and (min-width: 48rem) {
    .img-content {
-        width: 18rem;
-        height: auto;
-        background-position: left;
+        max-width: 17.82rem;
         border-radius: .625rem 0 0 .625rem;
+        
+    }
+
+    .img-content img {
+        border-radius: .625rem 0 0 .625rem;
+        height: 17.375rem;
+        object-position: left;
     }
 
     .content-wrapper {
@@ -208,7 +209,7 @@ body {
         transform: rotate(180deg);
     }
 
-    .bg-share-img {
+    .bg-share-btn {
         background-color: var(--veryDarkGrayisBlue);
     }
 
