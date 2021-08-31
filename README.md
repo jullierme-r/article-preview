@@ -34,8 +34,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jullierme-r/article-preview)
-- Live Site URL: [Add live site URL here](https://jullierme-r.github.io/article-preview/)
+- Solution URL: [https://github.com/jullierme-r/article-preview](https://github.com/jullierme-r/article-preview)
+- Live Site URL: [https://jullierme-r.github.io/article-preview/](https://jullierme-r.github.io/article-preview/)
 
 
 ### Built with
