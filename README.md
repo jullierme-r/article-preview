@@ -49,5 +49,5 @@ Your users should be able to:
 
 ## Author
 
-- GitHub - [Add your name here](https://github.com/jullierme-r)
+- GitHub - [jullierme-r](https://github.com/jullierme-r)
 - Frontend Mentor - [@jullierme-r](https://www.frontendmentor.io/profile/jullierme-r)
